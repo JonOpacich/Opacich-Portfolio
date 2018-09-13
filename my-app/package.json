@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fullpage/react-fullpage": "0.0.9",
+    "npm": "^6.4.1",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5",
-    "semantic-ui-react": "^0.82.3"
+    "react-scripts": "1.1.5"
   },
   "scripts": {
     "build-semantic": "cd src/semantic && gulp build-css build-assets",
@@ -18,6 +19,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "semantic-ui": "^2.3.3"
+    "bulma": "^0.7.1",
+    "node-sass": "^4.9.3"
   }
 }

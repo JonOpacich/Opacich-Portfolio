@@ -35,6 +35,7 @@ const Hero = ({ mobile }) => {
     }
   };
   return (
+    <div className="section">
     <Container style={mobile ? null:containerStyle} textAlign="center">
       <Header
         as="h3"
@@ -63,6 +64,7 @@ const Hero = ({ mobile }) => {
       </Button>
       <Buttons mobile={mobile} />
     </Container>
+    </div>
   );
 };
 
