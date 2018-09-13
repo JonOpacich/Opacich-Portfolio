@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
+const fullpageOptions = {
+    callbacks: ["onLeave"],
+    verticalCentered:false,
+    controlArrows:false
+  };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App {...fullpageOptions} />, document.getElementById('root'));
 registerServiceWorker();
