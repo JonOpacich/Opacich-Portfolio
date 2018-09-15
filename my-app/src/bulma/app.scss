@@ -1,3 +1,62 @@
-@charset "utf-8";
+$primary-theme: #3fa5ff;
+$secondary-theme: #ff9f35;
+$text:black;
+$border:$secondary-theme;
+$link:$primary-theme;
+
 @import "../../node_modules/bulma/bulma.sass";
-@import "~slick-carousel/slick/slick.css";
+@import "../../node_modules/fullpage.js/dist/fullpage.min.css";
+@import "../../node_modules/slick-carousel/slick/slick.css";
+
+
+
+.tabs.is-boxed li.active a {
+  background-color: white;
+  border-color: #ff9f35 !important;
+  border-bottom-color: transparent !important;
+}
+span.chevron{
+    position: absolute;
+    bottom:5vh;
+    left:50vw;
+    font-size:4.5vmin;
+    animation: chevronBounce 5s infinite 0s ease-out;
+}
+
+@keyframes chevronBounce{
+    0%{
+        transform: translateY(0);
+        }
+    24%{
+        transform: translateY(-0.5vh);
+        }
+    80%{
+        transform: translateY(0);
+        }
+    86%{
+        transform: translateY(0.8vh);
+        }
+    100%{
+        transform: translateY(0vh);
+        }
+}
+.greeting{
+    font-size:5vmin;
+    width:40vw;
+    text-align: center;
+    position: absolute !important;
+    bottom:20vh;
+    left:10vw;
+}
+
+a.name{
+    color:$text;
+    text-decoration: underline $primary-theme;
+}
+#logo {
+    position:absolute;
+    color:$primary-theme;
+    font-weight:bolder;
+    top:-7px;
+    margin-left:5px;
+  }
