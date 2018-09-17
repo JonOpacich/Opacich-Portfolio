@@ -1,5 +1,4 @@
 import React from "react";
-import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
 import ReactFullpage from "@fullpage/react-fullpage";
 import Landing from "../src/pages/Landing";
 import About from "../src/pages/About";
@@ -17,8 +16,8 @@ const App = fullpageProps => (
         return (
           <div>
             <Landing />
-            <About />
             <Portfolio />
+            <About />
             <Contact />
           </div>
         );

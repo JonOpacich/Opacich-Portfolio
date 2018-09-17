@@ -5,11 +5,12 @@ let images = ["https://r.hswstatic.com/w_907/gif/tesla-cat.jpg", "https://www.re
 
 export default class Portfolio extends React.Component {
   render() {
+
     const settings = {
       customPaging: function(i) {
         return (
-          <a>
-            <img src={images[i]} height={30} width={30}/>
+          <a className="thumb-container">
+            <img src={images[i]} className="thumb-img"/>
           </a>
         );
       },
@@ -18,23 +19,25 @@ export default class Portfolio extends React.Component {
       infinite: true,
       speed: 500,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      lazyLoad:"ondemand"
     };
+
     return (
       <div className="section">
         <h2>Portfolio</h2>
         <Slider {...settings}>
           <div>
-            <img src={"https://r.hswstatic.com/w_907/gif/tesla-cat.jpg"} />
+            <img src={images[0]} />
           </div>
           <div>
-            <img src={"https://www.readersdigest.ca/wp-content/uploads/sites/14/2011/01/4-ways-cheer-up-depressed-cat.jpg"} />
+            <img src={images[1]} />
           </div>
           <div>
-            <img src={"https://r.hswstatic.com/w_907/gif/tesla-cat.jpg"} />
+            <img src={images[2]} />
           </div>
           <div>
-            <img src={"https://www.readersdigest.ca/wp-content/uploads/sites/14/2011/01/4-ways-cheer-up-depressed-cat.jpg"} />
+            <img src={images[3]} />
           </div>
         </Slider>
       </div>

@@ -7,7 +7,7 @@ const fullpageOptions = {
     callbacks: ["onLeave"],
     verticalCentered:false,
     controlArrows:false,
-    anchors:['Landing',"About","Portfolio","Contact"],
+    anchors:['Landing',"Portfolio","About","Contact"],
     menu:"#menu"
   };
 

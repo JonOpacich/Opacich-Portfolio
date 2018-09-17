@@ -12,10 +12,10 @@ let nav = {
 const Landing = ({ children }) => (
   <div className="section" style={section}>
     <div className="greeting">
-      Hello there! I'm <a className="name">Jon Opacich</a> Currently creating
-      beautiful stuff in Minneapolis, MN.
+      Hello there! I'm <a className="name" href="https://github.com/JonOpacich" target="blank">Jon Opacich</a> Currently creating
+      beautiful stuff in Minneapolis, MN
     </div>
-    <a href="#About">
+    <a href="#Portfolio">
       <span className="icon chevron">
         <i class="fas fa-chevron-down" />
       </span>
