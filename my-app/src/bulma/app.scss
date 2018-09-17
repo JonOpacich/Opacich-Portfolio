@@ -9,7 +9,7 @@ $link: $primary-theme;
 @import "../../node_modules/slick-carousel/slick/slick.css";
 
 .slick-slider {
-  height: 100vh;
+  height: auto;
 }
 .tabs.is-boxed li.active a {
   background-color: white;
@@ -81,24 +81,25 @@ $slick-opacity-default: 0.95;
 $slick-opacity-on-hover: 1;
 $slick-opacity-not-active: 0.25;
 
-//thumbnail sizing ============================
-.slick-dots {
-  right: 7vw !important;
+//slick layout==========================================================================================================================================
+.slick-vertical{
+  position:absolute;
+  right:5vw;
+  left:80vw;
+  top:20vh;
+  bottom:5vh !important;
 }
-.thumb-img {
+div.horizontal{
+  position:absolute;
+  left:5vw;
+  right:20vw;
+  top:20vh;
+  bottom:5vh !important;
+  width:auto;
+  height:auto;
   max-width: none;
-  width: 12em;
-  height: auto;
 }
-.slick-thumb {
-    bottom:80px !important;
-  li {
-    padding: 0 7em !important;
-  }
-}
-
-//===============================================
-
+//=========================================================================================================================================================================================================
 @function slick-image-url($url) {
   @if function-exists(image-url) {
     @return image-url($url);
