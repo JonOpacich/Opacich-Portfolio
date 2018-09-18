@@ -6471,22 +6471,61 @@ a.name {
   top: -35px;
   margin-left: 5px; }
 
+.headshot {
+  display: block;
+  margin: 50px auto 0;
+  border-radius: 3px;
+  z-index: 1000; }
+
+.bio {
+  text-align: center;
+  font-size: 20px; }
+
+.form-submit, .form-submit:focus {
+  color: #0071bd;
+  background: #ff9f35;
+  font-weight: 550; }
+
+.box {
+  margin: 10vh auto 0; }
+
 .slick-vertical {
-  position: absolute;
-  right: 5vw;
-  left: 80vw;
-  top: 20vh;
-  bottom: 5vh !important; }
+  position: absolute !important;
+  right: 5vw !important;
+  left: 80vw !important;
+  top: 20vh !important;
+  bottom: 5vh !important;
+  overflow: hidden; }
 
 div.horizontal {
   position: absolute;
   left: 5vw;
   right: 20vw;
   top: 20vh;
-  bottom: 5vh !important;
-  width: auto;
-  height: auto;
-  max-width: none; }
+  bottom: 5vh !important; }
+
+.horizontal-img {
+  display: block;
+  margin: auto;
+  width: auto !important;
+  height: 75vh !important; }
+
+.vertical-img {
+  max-height: 25vh !important;
+  width: auto !important; }
+
+.section-title {
+  text-align: center;
+  position: relative;
+  top: 3vh;
+  font-size: 48px; }
+
+.section-logo {
+  color: #3fa5ff;
+  position: relative;
+  right: 10px;
+  bottom: 10px;
+  font-size: 70px !important; }
 
 /* Slider */
 /* Icons */
@@ -6512,7 +6551,7 @@ div.horizontal {
   opacity: 0.75;
   border-radius: 100px;
   color: transparent;
-  top: 40%;
+  top: 50%;
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
