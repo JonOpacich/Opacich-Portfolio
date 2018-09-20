@@ -23,7 +23,7 @@ class Nav extends Component {
   render() {
     return (
       <div class="tabs is-boxed is-right" style={nav}>
-        <a href="#Landing">
+        <a className="" href="#Landing">
           <p className="subtitle nav-Name" style={name}>
             Jon Opacich <span id="logo">_</span>
           </p>

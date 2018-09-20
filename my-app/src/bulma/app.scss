@@ -1,12 +1,17 @@
 $primary-theme: #3fa5ff;
 $secondary-theme: #ff9f35;
-$text: black;
+$text: 	#4A4A4A;
 $border: $secondary-theme;
 $link: $primary-theme;
-
 @import "../../node_modules/bulma/bulma.sass";
 @import "../../node_modules/fullpage.js/dist/fullpage.min.css";
 @import "../../node_modules/slick-carousel/slick/slick.css";
+.box{
+  width:30vw;
+  textarea{
+    height:200px;
+  }
+}
 
 .slick-slider {
   height: auto;
@@ -83,6 +88,11 @@ a.name {
   margin:10vh auto 0;
 
 }
+
+.tabs.is-boxed a:hover {
+  background-color: transparent !important;
+}
+
 
 // slick-carousel themeing =======================================================================================
 

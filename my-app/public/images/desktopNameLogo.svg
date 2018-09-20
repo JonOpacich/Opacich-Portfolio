@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="90mm"
+   height="18mm"
+   viewBox="0 0 90 18"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="desktopNameLogo.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="218.70076"
+     inkscape:cy="11.610408"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     width="296mm"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-279)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:26.45833206px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="79.752975"
+       y="189.27678"
+       id="text4742"><tspan
+         sodipodi:role="line"
+         id="tspan4740"
+         x="79.752975"
+         y="198.93228"
+         style="stroke-width:0.26458332" /></text>
+    <g
+       id="g5000"
+       transform="translate(-41.357993,196.92148)">
+      <rect
+         y="94.61129"
+         x="42.862999"
+         height="1.2027129"
+         width="87.798035"
+         id="rect4774"
+         style="opacity:0.90499998;fill:#ff9f35;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <rect
+         y="95.011047"
+         x="42.562672"
+         height="1.2027129"
+         width="87.530769"
+         id="rect4774-5"
+         style="opacity:0.90499998;fill:#3fa5ff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+      <flowRoot
+         transform="matrix(0.94269549,0,0,1.0876997,-111.50323,-255.38461)"
+         style="font-style:normal;font-weight:normal;font-size:16px;line-height:1;font-family:sans-serif;letter-spacing:5px;word-spacing:0px;fill:#4a4a4a;fill-opacity:1;stroke:none"
+         id="flowRoot4518"
+         xml:space="preserve"><flowRegion
+           style="font-size:16px;line-height:1;letter-spacing:5px;fill:#4a4a4a;fill-opacity:1"
+           id="flowRegion4520"><rect
+             style="font-size:16px;line-height:1;letter-spacing:5px;fill:#4a4a4a;fill-opacity:1"
+             y="309.66254"
+             x="164.28572"
+             height="84.285713"
+             width="524.28571"
+             id="rect4522" /></flowRegion><flowPara
+           id="flowPara4524"><flowSpan
+   id="flowSpan4526"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1;font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';letter-spacing:0.48338681px;fill:#4a4a4a;fill-opacity:1">Jon Opacich</flowSpan> </flowPara></flowRoot>    </g>
+  </g>
+</svg>

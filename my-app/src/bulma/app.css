@@ -274,7 +274,7 @@ pre {
   font-family: monospace; }
 
 body {
-  color: black;
+  color: #4A4A4A;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5; }
@@ -324,7 +324,7 @@ strong {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: whitesmoke;
-  color: black;
+  color: #4A4A4A;
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -1088,7 +1088,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: black;
+  color: #4A4A4A;
   display: block;
   padding: 1.25rem; }
 
@@ -1139,7 +1139,7 @@ a.box:active {
   .button.is-text {
     background-color: transparent;
     border-color: transparent;
-    color: black;
+    color: #4A4A4A;
     text-decoration: underline; }
     .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
       background-color: whitesmoke;
@@ -3029,11 +3029,11 @@ a.box:active {
   .progress::-webkit-progress-bar {
     background-color: #ff9f35; }
   .progress::-webkit-progress-value {
-    background-color: black; }
+    background-color: #4A4A4A; }
   .progress::-moz-progress-bar {
-    background-color: black; }
+    background-color: #4A4A4A; }
   .progress::-ms-fill {
-    background-color: black;
+    background-color: #4A4A4A;
     border: none; }
   .progress.is-white::-webkit-progress-value {
     background-color: white; }
@@ -3259,7 +3259,7 @@ a.box:active {
   align-items: center;
   background-color: whitesmoke;
   border-radius: 4px;
-  color: black;
+  color: #4A4A4A;
   display: inline-flex;
   font-size: 0.75rem;
   height: 2em;
@@ -3501,7 +3501,7 @@ a.tag:hover {
 .card {
   background-color: white;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-  color: black;
+  color: #4A4A4A;
   max-width: 100%;
   position: relative; }
 
@@ -3739,7 +3739,7 @@ a.dropdown-item {
   line-height: 1.25; }
   .menu-list a {
     border-radius: 2px;
-    color: black;
+    color: #4A4A4A;
     display: block;
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
@@ -3861,7 +3861,7 @@ a.dropdown-item {
 
 .message-header {
   align-items: center;
-  background-color: black;
+  background-color: #4A4A4A;
   border-radius: 4px 4px 0 0;
   color: #fff;
   display: flex;
@@ -3884,7 +3884,7 @@ a.dropdown-item {
   border-radius: 4px;
   border-style: solid;
   border-width: 0 0 0 4px;
-  color: black;
+  color: #4A4A4A;
   padding: 1.25em 1.5em; }
   .message-body code,
   .message-body pre {
@@ -4843,7 +4843,7 @@ a.navbar-item,
       color: #363636; }
 
 .panel-list a {
-  color: black; }
+  color: #4A4A4A; }
   .panel-list a:hover {
     color: #3fa5ff; }
 
@@ -4902,7 +4902,7 @@ label.panel-block {
     border-bottom-color: #ff9f35;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    color: black;
+    color: #4A4A4A;
     display: flex;
     justify-content: center;
     margin-bottom: -1px;
@@ -6422,6 +6422,11 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+.box {
+  width: 30vw; }
+  .box textarea {
+    height: 200px; }
+
 .slick-slider {
   height: auto; }
 
@@ -6459,7 +6464,7 @@ span.chevron {
   left: 10vw; }
 
 a.name {
-  color: black;
+  color: #4A4A4A;
   text-decoration: underline #3fa5ff; }
 
 #logo {
@@ -6488,6 +6493,9 @@ a.name {
 
 .box {
   margin: 10vh auto 0; }
+
+.tabs.is-boxed a:hover {
+  background-color: transparent !important; }
 
 .slick-vertical {
   position: absolute !important;
