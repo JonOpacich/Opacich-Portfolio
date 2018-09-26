@@ -6455,6 +6455,18 @@ span.chevron {
   100% {
     transform: translateY(0vh); } }
 
+.box {
+  margin-top: 2vh !important; }
+
+.overflow {
+  color: #ff9f35; }
+
+.linkedin {
+  color: #3fa5ff; }
+
+.github {
+  color: grey; }
+
 .greeting {
   font-size: 5vmin;
   width: 40vw;
@@ -6462,6 +6474,17 @@ span.chevron {
   position: absolute !important;
   bottom: 20vh;
   left: 10vw; }
+
+span.is-large {
+  margin: 0 10px; }
+
+.icon-container {
+  text-align: center; }
+
+.contact-title {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5vh; }
 
 a.name {
   color: #4A4A4A;
@@ -6487,12 +6510,17 @@ a.name {
   font-size: 20px; }
 
 .form-submit, .form-submit:focus {
-  color: #0071bd;
-  background: #ff9f35;
+  border-color: #3fa5ff;
+  color: #3fa5ff;
   font-weight: 550; }
 
 .box {
   margin: 10vh auto 0; }
+
+.contact-info {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px; }
 
 .tabs.is-boxed a:hover {
   background-color: transparent !important; }
