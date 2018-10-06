@@ -1,13 +1,20 @@
-import React from "react";
+import React, { Component } from "react";
 
-const SkillSection = (props) => {
-  return (
-    <div>
-      <span className="icon is-large">       
-          <i class={`fab fa-3x ${props.icon}`} />
-      </span>
-    </div>
-  );
-};
+export class SkillSection extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-export { SkillSection };
+  render() {
+    return (
+      <div className="skillSection">
+        <span class="icon has-text-warning is-large">
+          <i class={this.props.icon} />
+        </span>
+        <h1 className="skillSectionTitle title is-2">{this.props.title}</h1>
+        <div className="tags">{this.props.children}</div>
+      </div>
+    );
+  }
+}

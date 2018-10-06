@@ -1,19 +1,5 @@
 import React, { Component } from "react";
 
-const nav = {
-  position: "fixed",
-  right: "5vw",
-  left: "5vw",
-  top: 20,
-  zIndex: 1
-};
-const name = {
-  position: "absolute",
-  left: 100,
-  zIndex: 1,
-  fontSize: "2rem"
-};
-
 class Bio extends Component {
   constructor(props) {
     super(props);
@@ -24,15 +10,18 @@ class Bio extends Component {
     return (
       <div className="column">
         <img
-          src="http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg"
+          src="/images/Jon5.jpg"
           alt="Personal Headshot"
           className="headshot"
         />
+        
         <p className="bio">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic aut
-          accusantium, exercitationem nulla animi commodi tempora dolores
-          tenetur, odit maxime ipsum at ex voluptas quia delectus consequatur
-          dolore earum suscipit.
+          Having spent over 3 years in a small pharmacology laboratory
+          designing, publishing and presenting scientific research, I bring
+          strong management and problem-solving skills to my passion for web
+          development. I enjoy working with innovative teams on the cutting-edge
+          of design to create intuitive, unique front-ends, streamline workflows
+          and meet tight deadlines.
         </p>
       </div>
     );

@@ -57,17 +57,17 @@ const Contact = ({ mobile }) => {
         </div>
         <div className="icon-container">
           <span className="icon is-large">
-            <a className="github" href="#" target="blank">
+            <a className="github" href="https://github.com/JonOpacich" target="blank">
               <i class="fab fa-3x fa-github" />
             </a>
           </span>
           <span className="icon is-large">
-            <a className="overflow" href="#" target="blank">
+            <a className="overflow" href="https://stackoverflow.com/users/9513795/jopacich" target="blank">
               <i class="fab fa-3x fa-stack-overflow" />
             </a>
           </span>
           <span className="icon is-large">
-            <a className="linkedIn" href="" target="blank">
+            <a className="linkedIn" href="https://linkedin.com/in/Opacich" target="blank">
               <i class="fab fa-3x fa-linkedin-in" />
             </a>
           </span>

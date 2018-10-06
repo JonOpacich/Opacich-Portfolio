@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-let images= ["http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg"]
+let images= ["/images/ArtsposeLogo.png","/images/KarmaLogo.jpg", "/images/SessionLogo.jpg"]
 
 export default class AsNavFor extends Component {
   constructor(props) {
@@ -32,10 +32,10 @@ export default class AsNavFor extends Component {
             <img src={images[0]} alt="" className="horizontal-img"/>
           </div>
           <div>
-          <img src={images[0]} alt="" className="horizontal-img"/>
+          <img src={images[1]} alt="" className="horizontal-img"/>
           </div>
           <div>
-          <img src={images[0]} alt="" className="horizontal-img"/>
+          <img src={images[2]} alt="" className="horizontal-img"/>
           </div>
           <div>
           <img src={images[0]} alt="" className="horizontal-img"/>
@@ -62,10 +62,10 @@ export default class AsNavFor extends Component {
             <img src={images[0]} alt="" className="vertical-img"/>
           </div>
           <div>
-          <img src={images[0]} alt="" className="vertical-img"/>
+          <img src={images[1]} alt="" className="vertical-img"/>
           </div>
           <div>
-          <img src={images[0]} alt="" className="vertical-img"/>
+          <img src={images[2]} alt="" className="vertical-img"/>
           </div>
           <div>
           <img src={images[0]} alt="" className="vertical-img"/>

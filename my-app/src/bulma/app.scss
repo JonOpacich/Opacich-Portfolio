@@ -2,17 +2,31 @@ $primary-theme: #3fa5ff;
 $secondary-theme: #ff9f35;
 $text: 	#4A4A4A;
 $border: $secondary-theme;
+$warning: $secondary-theme;
 $link: $primary-theme;
+
 @import "../../node_modules/bulma/bulma.sass";
 @import "../../node_modules/fullpage.js/dist/fullpage.min.css";
 @import "../../node_modules/slick-carousel/slick/slick.css";
+html{
+  text-rendering: optimizeLegibility;
+}
+.skillSectionTitle{
+  display:inline;
+}
 .box{
   width:30vw;
   textarea{
     height:200px;
   }
 }
-
+.landing-Page{
+  background-image: url("/images/Jon7.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+  filter:sepia(8%);
+}
 .slick-slider {
   height: auto;
 }
@@ -67,6 +81,8 @@ span.chevron {
   position: absolute !important;
   bottom: 20vh;
   left: 10vw;
+  color: white;
+text-shadow: 2px 2px 4px #000000;
 }
 span.is-large{
   margin:0 10px;
@@ -90,17 +106,19 @@ a.name {
   font-weight: bolder;
   font-size: 1.8em;
   top: -35px;
-  margin-left: 5px;
+  margin-left:5px;
 }
 .headshot {
-  display: block;
-  margin: 50px auto 0;
-  border-radius: 3px;
+  float:left;
+  border-radius:10000px;
   z-index: 1000;
+  shape-outside: circle();
+  margin-right:20px;
 }
 .bio {
-  text-align: center;
+  margin-top:20px;
   font-size: 20px;
+  text-align: justify;
 }
 .form-submit, .form-submit:focus {
   border-color:$primary-theme;
