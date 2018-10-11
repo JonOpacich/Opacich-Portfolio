@@ -18,8 +18,8 @@ export default class Landing extends Component {
             target="blank"
           >
             Jon Opacich
-          </a>{" "}
-          Currently creating beautiful stuff in Minneapolis, MN
+          </a>.{" "}
+          Currently creating beautiful stuff in Minneapolis, MN.
         </div>
         <a href="#Portfolio">
           <span className="icon chevron">

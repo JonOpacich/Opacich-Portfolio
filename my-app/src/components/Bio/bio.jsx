@@ -8,7 +8,7 @@ class Bio extends Component {
 
   render() {
     return (
-      <div className="column">
+      <div className={this.props.classes}>
         <img
           src="/images/Jon5.jpg"
           alt="Personal Headshot"

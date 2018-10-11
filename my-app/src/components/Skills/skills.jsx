@@ -5,7 +5,6 @@ import { SkillTag } from "./skillTag";
 function mapTags(array) {
   return array.map(index => <SkillTag title={index} />);
 }
-
 const frontEnd = [
   "React",
   "jQuery",
@@ -61,7 +60,7 @@ export class Skills extends Component {
 
   render() {
     return (
-      <div className="column">
+      <div className={this.props.classes}>
         <div className="skills-container">
           <SkillSection icon="fas fa-3x fa-code" title="Front-End">
             {mapTags(frontEnd)}
