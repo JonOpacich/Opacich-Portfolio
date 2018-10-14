@@ -16,7 +16,7 @@
     "css-build": "node-sass --omit-source-map-url src/bulma/app.scss src/bulma/app.css",
     "css-watch": "yarn run css-build -- --watch",
     "start": "react-scripts start",
-    "build": "yarn run build-semantic && react-scripts build",
+    "build": "yarn run react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },

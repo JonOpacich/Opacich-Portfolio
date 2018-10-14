@@ -1,0 +1,31 @@
+.card-container{
+    width:400px;
+    box-shadow: 0 2px 3px rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.1);
+    margin:10px;
+    border-radius: 2px 2px 5px 5px;
+}
+.card-body{
+    overflow:hidden;
+    padding:1.5rem;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center !important;
+}
+.body-text{
+    padding:0;
+}
+.button-container{
+    float:right;
+    margin-left:10px;
+}
+.card-button{
+    color:grey;
+}
+.card-button:hover{
+    color:black;   
+   }
+.slick-current .card-container{
+    
+}
